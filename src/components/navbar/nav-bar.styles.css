@@ -1,0 +1,42 @@
+.nav-bar {
+  background-color: #0c8599;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #e7f3f5;
+}
+
+.nav-bar__logo {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-bar__company-name {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.nav-bar__links {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav-bar__links li {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.nav-bar__link:link,
+.nav-bar__link:visited {
+  text-decoration: none;
+  color: #e7f3f5;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-bar__link:hover {
+  color: #f76707;
+}
